@@ -33,7 +33,7 @@
         </p>
         <div class="email">
         <input type="email" placeholder="Email Address" id="input-email">
-        <button><i class="fa-solid fa-greater-than fa-lg" style="color:white;"></i></button>
+        <button id="submit"><i class="fa-solid fa-greater-than fa-lg" style="color:white;"></i></button>
       </div>
       <p id="error">Please provide a valid email</p>
         
@@ -59,7 +59,7 @@ img.addListener(myFunction)
 //email verification
 
 var var_email = document.querySelector("#input-email");
-document.querySelector("button").addEventListener("click",()=>{
+document.querySelector("#submit").addEventListener("click",()=>{
   document.querySelector("#error").style.display="none";
   document.querySelector(".email").classList.remove("error-border")
 
