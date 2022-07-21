@@ -88,7 +88,7 @@ main{
         h1>span{
             color: var(--Desaturated-Red);
             font-weight: var(--fw-300);
-            font-size: 3.5rem;
+            font-size: inherit;
         }
     
     p.main-para{
@@ -153,7 +153,7 @@ main{
        }
 
 
-@media(min-width:930px){
+@media(min-width:960px){
 
     
     body{
@@ -170,7 +170,7 @@ main{
     main{
         overflow: hidden;
         height: 100vh;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 55% 45%;
         grid-template-rows: 30% 70%;
         grid-template-areas: "logo hero-img"
                               "main-text hero-img";
@@ -184,6 +184,9 @@ main{
         .main-text{
           padding-left: 5rem;
             text-align: left;
+        }
+        h1{
+            font-size: 4rem !important;
         }
 
              p.main-para{
