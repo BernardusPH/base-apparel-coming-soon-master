@@ -153,12 +153,13 @@ main{
        }
 
 
-@media(min-width:960px){
+@media(min-width:1200px){
 
     
     body{
         background-image: url("./images/bg-pattern-desktop.svg");
         background-repeat: no-repeat;
+        background-size:cover;
       
     }
     .logo{
